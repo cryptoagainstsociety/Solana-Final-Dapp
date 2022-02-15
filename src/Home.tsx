@@ -483,15 +483,13 @@ const Home = (props: HomeProps) => {
         <main>
             <MainContainer>
                 <WalletContainer>
-                    <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt=""
+                    <Logo><a href="https://www.cryptoagainstsocietynft.com/" target="_blank" rel="noopener noreferrer"><img alt=""
                                                                                                           src="logo.png"/></a></Logo>
                     <Menu>
-                        <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Menu 1</a>
+                        <li><a href="https://www.cryptoagainstsocietynft.com/" target="_blank" rel="noopener noreferrer">Home</a>
                         </li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 2</a></li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 3</a></li>
+                        <li><a href="https://solscan.io/account/5S3cqCcnCWaGBzAo2qFY4tL1ef8u6m1Ex47QfqWaGsEQ" target="_blank"
+                               rel="noopener noreferrer">View Candy Machine</a></li>
                     </Menu>
                     <Wallet>
                         {wallet ?
@@ -499,18 +497,18 @@ const Home = (props: HomeProps) => {
                             <ConnectButton>Connect Wallet</ConnectButton>}
                     </Wallet>
                 </WalletContainer>
-                <ShimmerTitle>MINT IS LIVE !</ShimmerTitle>
+                <ShimmerTitle>MINT BEGINS MARCH 12 01:00:00 GMT!</ShimmerTitle>
                 <br/>
 
 
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>My NFT</h2>
+                            <h2>Crypto Against Society NFTs</h2>
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
-                                src="cool-cats.gif"
+                                src="Crypto_Against_Society.gif"
                                 alt="NFT To Mint"/></div>
                             <br/>
                             {wallet && isActive && whitelistEnabled && (whitelistTokenBalance > 0) &&
@@ -580,31 +578,31 @@ const Home = (props: HomeProps) => {
                     </DesContainer>
                     <DesContainer>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 1</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>Description</GoldTitle></LogoAligner>
+                            <p>10000 algorithmically generated NFTs based on famous memes, events, terms, and popular figures in the cryptocurrency, wallstreetbets, and Gamestop communities.</p>
+                            <p>Each NFT pairs one of 50 possible black prompt cards and one of 255 possible white response cards.</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 2</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>Rarity</GoldTitle></LogoAligner>
+                            <p><LogoAligner><img src="Common.png" alt=""></img>Silver Logo - Common. The most frequently found cards in the set. There are 180 possible common cards.</LogoAligner></p>
+                            <p><LogoAligner><img src="Rare.png" alt=""></img>Gold Logo - Rare. These will be harder to draw. There are 50 possible rare cards.</LogoAligner></p>
+                            <p><LogoAligner><img src="Mythic.png" alt=""></img>Red/Orange Logo - Mythic. These are exceptionally rare cards. There are only 20 possible mythic cards.</LogoAligner></p>
+                            <p><LogoAligner><img src="Community.png" alt=""></img>Purple Logo - Community Submission. There are 5 cards that were submitted by the early community. Extremely rare.</LogoAligner></p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 3</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>Secondary Markets</GoldTitle></LogoAligner>
+                            <p>Crypto Against Society will be available for trading and verified on the below secondary markets upon completion of the mint.</p>
+                            <p><LogoAligner><a href="https://solsea.io/" target="_blank" rel="noopener noreferrer"><img alt=""
+                                                                                                          src="solsea_logo.png"/></a>
+                                <a href="https://solanart.io/" target="_blank" rel="noopener noreferrer"><img alt=""
+                                                                                                          src="solanart_logo.png"/></a>                                                                        
+                                <a href="https://digitaleyes.market/" target="_blank" rel="noopener noreferrer"><img alt=""
+                                                                                                          src="digitaleyes_logo.png"/></a>                                                                       
+                                <a href="https://magiceden.io/" target="_blank" rel="noopener noreferrer"><img alt=""
+                                                                                                          src="magiceden_logo.png"/></a>       
+                                <a href="https://alpha.art/" target="_blank" rel="noopener noreferrer"><img alt=""
+                                                                                                          src="alpharart_logo.png"/></a></LogoAligner>                                                                                                                                                                             
+                                                                                                          </p>
                         </Des>
                     </DesContainer>
                 </MintContainer>
